@@ -10,3 +10,12 @@ Nome: MONICA | Pontuação: 1
 Nome: FRANCIS | Pontuação: 0
 Nome: CARLOS | Pontuação: 0
 Nome: YUUMI | Pontuação: 1
+Nome: PAULINHA | Pontuação: 1
+Nome: PAULA | Pontuação: 0
+Nome: CLARA | Pontuação: 0
+Nome: GATINHA | Pontuação: 0
+Nome: LUIZA | Pontuação: 0
+Nome: VANUZA | Pontuação: 0
+Nome: ANA | Pontuação: 0
+Nome: MENTA | Pontuação: 0
+Nome: ANA | Pontuação: 0
