@@ -187,7 +187,7 @@ void adicionapalavra() {
     }
 
     fseek(f, 0, SEEK_SET);
-    fprintf(f, "%d", qtd + 1);
+    fprintf(f, "%02d\n", qtd + 1); 
 
     fseek(f, 0, SEEK_END);
     fprintf(f, "\n%s", novapalavra);
@@ -203,6 +203,7 @@ int main() {
   printf("1 - Fácil\n");
   printf("2 - Médio\n");
   printf("3 - Difícil\n");
+  printf("\n>> ");
   scanf("%d", &escolha_nivel);
 
   if (escolha_nivel < FACIL || escolha_nivel > DIFICIL) {
@@ -261,7 +262,7 @@ int main() {
   scanf("%s", nome_usuario);
 
   int pontuacao = (ganhou() ? qte_maxima_chutes - chutesdados : 0);
-  
+
   FILE *arquivo_ranking = fopen("ranking.txt", "a");
   if (arquivo_ranking == NULL) {
       printf("Erro ao abrir o arquivo de ranking.\n");
