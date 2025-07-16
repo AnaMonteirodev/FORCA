@@ -12,8 +12,11 @@ Este é um projeto de um jogo da forca desenvolvido em linguagem C. O jogo escol
 ## 🗂️ Estrutura de Arquivos
 
 ├── main.c // Código principal do jogo
+
 ├── forca.h // Arquivo de cabeçalho com declarações de funções e constantes
+
 ├── palavras.txt // Banco de dados com as palavras do jogo
+
 ├── ranking.txt // Armazena o nome do jogador e a pontuação
 
 ## 🧠 Lógica do Jogo
